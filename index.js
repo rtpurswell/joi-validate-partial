@@ -1,7 +1,6 @@
-const Joi = require("joi");
 const _ = require("lodash");
 
-module.exports = () => {
+module.exports = (Joi) => {
   return (schema, partial) => {
     //Before we remove extra fields from the schema we need to make sure the user does not pass any
     //additional fields that are not part of the schema

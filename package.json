@@ -1,21 +1,30 @@
 {
   "name": "joi-validate-partial",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is an extremely small package that allows you to validate only part of a Joi Object. This is useful for PATCH requests where you do not receive the entire object to update",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "joi",
-    "validation",
-    "partial",
-    "validation"
-  ],
-  "author": "Robert Purswell",
-  "license": "ISC",
   "dependencies": {
     "joi": "^17.3.0",
     "lodash": "^4.17.20"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtpurswell/joi-validate-partial.git"
+  },
+  "keywords": [
+    "joi",
+    "validate",
+    "validate",
+    "partial"
+  ],
+  "author": "Robert Purswell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtpurswell/joi-validate-partial/issues"
+  },
+  "homepage": "https://github.com/rtpurswell/joi-validate-partial#readme"
 }
