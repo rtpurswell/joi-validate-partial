@@ -21,7 +21,7 @@
     "partial"
   ],
   "author": "Robert Purswell",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rtpurswell/joi-validate-partial/issues"
   },
