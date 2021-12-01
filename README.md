@@ -11,9 +11,9 @@ const Joi=require("joi");
 
 Joi.validatePartial = require("joi-validate-partial")(Joi); //Do this one time at the start of your application
 
-//Once initilized just use Joi.validatePartial in the exact same way you use Joi.validate
-//NOTE this is not a replacement to Joi.validate for CREATE operations because it will bypass required fields. This should only be used for PATCH requests
-//where you are receiving partial documents to update. 
+Once initilized just use Joi.validatePartial in the exact same way you use Joi.validate.
+
+IMPORTANT NOTE: This is not a replacement to Joi.validate for CREATE operations because it will bypass required fields. This should only be used for PATCH requests where you are receiving partial documents to update. 
 
 HOW IT WORKS
 
